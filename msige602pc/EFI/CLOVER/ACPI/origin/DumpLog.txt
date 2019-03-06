@@ -1,0 +1,156 @@
+10:760  0:905  Found BIOS RSDP at F0000
+10:760  0:000  Printing ACPI tables from RSDP F0000 ...
+10:760  0:000   F0000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+10:760  0:000    (Xsdt: CB6890A0, Rsdt: CB689028)
+10:760  0:000    CB6890A0: 'XSDT', 'MEGABOOK', Rev: 1, Len: 188
+10:760  0:000    CB689028: 'RSDT', 'MEGABOOK', Rev: 1, Len: 112
+10:760  0:000    Tables in Xsdt: 19
+10:760  0:000    0. CB696248: 'FACP', 'MEGABOOK', Rev: 5, Len: 268
+10:760  0:000        (Dsdt: CB6891F0, Facs: CB9EAF80, XDsdt: CB6891F0, XFacs: 0)
+10:760  0:000        CB6891F0: 'DSDT', 'MEGABOOK', Rev: 2, Len: 53335
+10:761  0:000        CB9EAF80: 'FACS', Ver: 2, Len: 64
+10:761  0:000    1. CB696358: 'APIC', 'MEGABOOK', Rev: 3, Len: 146
+10:761  0:000    2. CB6963F0: 'FPDT', 'MEGABOOK', Rev: 1, Len: 68
+10:761  0:000    3. CB696438: 'FIDT', 'MEGABOOK', Rev: 1, Len: 156
+10:761  0:000    4. CB6964D8: 'ASF!', ' HCG', Rev: 32, Len: 165
+10:761  0:000    5. CB696580: 'SSDT', 'sensrhub', Rev: 1, Len: 552
+10:761  0:000    6. CB6967A8: 'SSDT', 'zpodd', Rev: 1, Len: 399
+10:761  0:000    7. CB696938: 'SLIC', 'MEGABOOK', Rev: 1, Len: 374
+10:761  0:000    8. CB696AB0: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1397
+10:761  0:000    9. CB697028: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+10:761  0:000    10. CB697B00: 'MCFG', 'MEGABOOK', Rev: 1, Len: 60
+10:761  0:000    11. CB697B40: 'HPET', 'MEGABOOK', Rev: 1, Len: 56
+10:761  0:000    12. CB697B78: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+10:761  0:000    13. CB697E90: 'SSDT', 'SaSsdt', Rev: 1, Len: 13648
+10:761  0:000    14. CB69B3E0: 'SSDT', 'SgPeg', Rev: 1, Len: 5533
+10:761  0:000    15. CB69C980: 'MSFF', 'MEGABOOK', Rev: 1, Len: 41
+10:761  0:000    16. CB69C9B0: 'BGRT', 'MEGABOOK', Rev: 1, Len: 56
+10:761  0:000    17. CB69C9E8: 'DMAR', 'HSW', Rev: 1, Len: 184
+10:761  0:000    18. CB69CAA0: 'SSDT', 'OptTabl', Rev: 1, Len: 5191
+10:761  0:000    Tables in Rsdt: 19
+10:761  0:000    0. CB689168: 'FACP', 'MEGABOOK', Rev: 2, Len: 132
+10:761  0:000        (Dsdt: CB6891F0, Facs: CB9EAF40)
+10:761  0:000        CB6891F0: 'DSDT', 'MEGABOOK', Rev: 2, Len: 53335
+10:762  0:000        CB9EAF40: 'FACS', Ver: 0, Len: 64
+10:762  0:000    1. CB696358: 'APIC', 'MEGABOOK', Rev: 3, Len: 146
+10:762  0:000    2. CB6963F0: 'FPDT', 'MEGABOOK', Rev: 1, Len: 68
+10:762  0:000    3. CB696438: 'FIDT', 'MEGABOOK', Rev: 1, Len: 156
+10:762  0:000    4. CB6964D8: 'ASF!', ' HCG', Rev: 32, Len: 165
+10:762  0:000    5. CB696580: 'SSDT', 'sensrhub', Rev: 1, Len: 552
+10:762  0:000    6. CB6967A8: 'SSDT', 'zpodd', Rev: 1, Len: 399
+10:762  0:000    7. CB696938: 'SLIC', 'MEGABOOK', Rev: 1, Len: 374
+10:762  0:000    8. CB696AB0: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1397
+10:762  0:000    9. CB697028: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+10:762  0:000    10. CB697B00: 'MCFG', 'MEGABOOK', Rev: 1, Len: 60
+10:762  0:000    11. CB697B40: 'HPET', 'MEGABOOK', Rev: 1, Len: 56
+10:762  0:000    12. CB697B78: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+10:762  0:000    13. CB697E90: 'SSDT', 'SaSsdt', Rev: 1, Len: 13648
+10:762  0:000    14. CB69B3E0: 'SSDT', 'SgPeg', Rev: 1, Len: 5533
+10:762  0:000    15. CB69C980: 'MSFF', 'MEGABOOK', Rev: 1, Len: 41
+10:762  0:000    16. CB69C9B0: 'BGRT', 'MEGABOOK', Rev: 1, Len: 56
+10:762  0:000    17. CB69C9E8: 'DMAR', 'HSW', Rev: 1, Len: 184
+10:762  0:000    18. CB69CAA0: 'SSDT', 'OptTabl', Rev: 1, Len: 5191
+10:762  0:000  Found UEFI Acpi 2.0 RSDP at CB689000
+10:762  0:000  Saving ACPI tables from RSDP CB689000 to EFI\CLOVER\ACPI\origin ...
+10:762  0:000   CB689000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+10:762  0:000    (Xsdt: CB6890A0, Rsdt: CB689028)
+10:762  0:000    CB6890A0: 'XSDT', 'MEGABOOK', Rev: 1, Len: 188
+10:762  0:000    CB689028: 'RSDT', 'MEGABOOK', Rev: 1, Len: 112
+10:762  0:000    Tables in Xsdt: 19
+10:762  0:000    0. CB696248: 'FACP', 'MEGABOOK', Rev: 5, Len: 268
+10:762  0:000        (Dsdt: CB6891F0, Facs: CB9EAF80, XDsdt: CB6891F0, XFacs: 0)
+10:762  0:000        CB6891F0: 'DSDT', 'MEGABOOK', Rev: 2, Len: 53335
+10:763  0:000        CB9EAF80: 'FACS', Ver: 2, Len: 64
+10:763  0:000    1. CB696358: 'APIC', 'MEGABOOK', Rev: 3, Len: 146
+10:763  0:000    2. CB6963F0: 'FPDT', 'MEGABOOK', Rev: 1, Len: 68
+10:763  0:000    3. CB696438: 'FIDT', 'MEGABOOK', Rev: 1, Len: 156
+10:763  0:000    4. CB6964D8: 'ASF!', ' HCG', Rev: 32, Len: 165
+10:763  0:000    5. CB696580: 'SSDT', 'sensrhub', Rev: 1, Len: 552
+10:763  0:000    6. CB6967A8: 'SSDT', 'zpodd', Rev: 1, Len: 399
+10:763  0:000    7. CB696938: 'SLIC', 'MEGABOOK', Rev: 1, Len: 374
+10:763  0:000    8. CB696AB0: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1397
+10:763  0:000    9. CB697028: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+10:763  0:000    10. CB697B00: 'MCFG', 'MEGABOOK', Rev: 1, Len: 60
+10:763  0:000    11. CB697B40: 'HPET', 'MEGABOOK', Rev: 1, Len: 56
+10:763  0:000    12. CB697B78: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+10:763  0:000    13. CB697E90: 'SSDT', 'SaSsdt', Rev: 1, Len: 13648
+10:763  0:000    14. CB69B3E0: 'SSDT', 'SgPeg', Rev: 1, Len: 5533
+10:763  0:000    15. CB69C980: 'MSFF', 'MEGABOOK', Rev: 1, Len: 41
+10:763  0:000    16. CB69C9B0: 'BGRT', 'MEGABOOK', Rev: 1, Len: 56
+10:763  0:000    17. CB69C9E8: 'DMAR', 'HSW', Rev: 1, Len: 184
+10:763  0:000    18. CB69CAA0: 'SSDT', 'OptTabl', Rev: 1, Len: 5191
+10:763  0:000    Tables in Rsdt: 19
+10:763  0:000    0. CB689168: 'FACP', 'MEGABOOK', Rev: 2, Len: 132
+10:763  0:000        (Dsdt: CB6891F0, Facs: CB9EAF40)
+10:763  0:000        CB6891F0: 'DSDT', 'MEGABOOK', Rev: 2, Len: 53335
+10:764  0:000        CB9EAF40: 'FACS', Ver: 0, Len: 64
+10:764  0:000    1. CB696358: 'APIC', 'MEGABOOK', Rev: 3, Len: 146
+10:764  0:000    2. CB6963F0: 'FPDT', 'MEGABOOK', Rev: 1, Len: 68
+10:764  0:000    3. CB696438: 'FIDT', 'MEGABOOK', Rev: 1, Len: 156
+10:764  0:000    4. CB6964D8: 'ASF!', ' HCG', Rev: 32, Len: 165
+10:764  0:000    5. CB696580: 'SSDT', 'sensrhub', Rev: 1, Len: 552
+10:764  0:000    6. CB6967A8: 'SSDT', 'zpodd', Rev: 1, Len: 399
+10:764  0:000    7. CB696938: 'SLIC', 'MEGABOOK', Rev: 1, Len: 374
+10:764  0:000    8. CB696AB0: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1397
+10:764  0:000    9. CB697028: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+10:764  0:000    10. CB697B00: 'MCFG', 'MEGABOOK', Rev: 1, Len: 60
+10:764  0:000    11. CB697B40: 'HPET', 'MEGABOOK', Rev: 1, Len: 56
+10:764  0:000    12. CB697B78: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+10:764  0:000    13. CB697E90: 'SSDT', 'SaSsdt', Rev: 1, Len: 13648
+10:764  0:000    14. CB69B3E0: 'SSDT', 'SgPeg', Rev: 1, Len: 5533
+10:764  0:000    15. CB69C980: 'MSFF', 'MEGABOOK', Rev: 1, Len: 41
+10:764  0:000    16. CB69C9B0: 'BGRT', 'MEGABOOK', Rev: 1, Len: 56
+10:764  0:000    17. CB69C9E8: 'DMAR', 'HSW', Rev: 1, Len: 184
+10:764  0:000    18. CB69CAA0: 'SSDT', 'OptTabl', Rev: 1, Len: 5191
+10:764  0:000  Found UEFI Acpi 1.0 RSDP at CB689000
+10:764  0:000  Printing ACPI tables from RSDP CB689000 ...
+10:764  0:000   CB689000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+10:764  0:000    (Xsdt: CB6890A0, Rsdt: CB689028)
+10:764  0:000    CB6890A0: 'XSDT', 'MEGABOOK', Rev: 1, Len: 188
+10:764  0:000    CB689028: 'RSDT', 'MEGABOOK', Rev: 1, Len: 112
+10:764  0:000    Tables in Xsdt: 19
+10:764  0:000    0. CB696248: 'FACP', 'MEGABOOK', Rev: 5, Len: 268
+10:764  0:000        (Dsdt: CB6891F0, Facs: CB9EAF80, XDsdt: CB6891F0, XFacs: 0)
+10:764  0:000        CB6891F0: 'DSDT', 'MEGABOOK', Rev: 2, Len: 53335
+10:765  0:000        CB9EAF80: 'FACS', Ver: 2, Len: 64
+10:765  0:000    1. CB696358: 'APIC', 'MEGABOOK', Rev: 3, Len: 146
+10:765  0:000    2. CB6963F0: 'FPDT', 'MEGABOOK', Rev: 1, Len: 68
+10:765  0:000    3. CB696438: 'FIDT', 'MEGABOOK', Rev: 1, Len: 156
+10:765  0:000    4. CB6964D8: 'ASF!', ' HCG', Rev: 32, Len: 165
+10:765  0:000    5. CB696580: 'SSDT', 'sensrhub', Rev: 1, Len: 552
+10:765  0:000    6. CB6967A8: 'SSDT', 'zpodd', Rev: 1, Len: 399
+10:765  0:000    7. CB696938: 'SLIC', 'MEGABOOK', Rev: 1, Len: 374
+10:765  0:000    8. CB696AB0: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1397
+10:765  0:000    9. CB697028: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+10:765  0:000    10. CB697B00: 'MCFG', 'MEGABOOK', Rev: 1, Len: 60
+10:765  0:000    11. CB697B40: 'HPET', 'MEGABOOK', Rev: 1, Len: 56
+10:765  0:000    12. CB697B78: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+10:765  0:000    13. CB697E90: 'SSDT', 'SaSsdt', Rev: 1, Len: 13648
+10:765  0:000    14. CB69B3E0: 'SSDT', 'SgPeg', Rev: 1, Len: 5533
+10:765  0:000    15. CB69C980: 'MSFF', 'MEGABOOK', Rev: 1, Len: 41
+10:765  0:000    16. CB69C9B0: 'BGRT', 'MEGABOOK', Rev: 1, Len: 56
+10:765  0:000    17. CB69C9E8: 'DMAR', 'HSW', Rev: 1, Len: 184
+10:765  0:000    18. CB69CAA0: 'SSDT', 'OptTabl', Rev: 1, Len: 5191
+10:765  0:000    Tables in Rsdt: 19
+10:765  0:000    0. CB689168: 'FACP', 'MEGABOOK', Rev: 2, Len: 132
+10:765  0:000        (Dsdt: CB6891F0, Facs: CB9EAF40)
+10:765  0:000        CB6891F0: 'DSDT', 'MEGABOOK', Rev: 2, Len: 53335
+10:766  0:000        CB9EAF40: 'FACS', Ver: 0, Len: 64
+10:766  0:000    1. CB696358: 'APIC', 'MEGABOOK', Rev: 3, Len: 146
+10:766  0:000    2. CB6963F0: 'FPDT', 'MEGABOOK', Rev: 1, Len: 68
+10:766  0:000    3. CB696438: 'FIDT', 'MEGABOOK', Rev: 1, Len: 156
+10:766  0:000    4. CB6964D8: 'ASF!', ' HCG', Rev: 32, Len: 165
+10:766  0:000    5. CB696580: 'SSDT', 'sensrhub', Rev: 1, Len: 552
+10:766  0:000    6. CB6967A8: 'SSDT', 'zpodd', Rev: 1, Len: 399
+10:766  0:000    7. CB696938: 'SLIC', 'MEGABOOK', Rev: 1, Len: 374
+10:766  0:000    8. CB696AB0: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1397
+10:766  0:000    9. CB697028: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+10:766  0:000    10. CB697B00: 'MCFG', 'MEGABOOK', Rev: 1, Len: 60
+10:766  0:000    11. CB697B40: 'HPET', 'MEGABOOK', Rev: 1, Len: 56
+10:766  0:000    12. CB697B78: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+10:766  0:000    13. CB697E90: 'SSDT', 'SaSsdt', Rev: 1, Len: 13648
+10:766  0:000    14. CB69B3E0: 'SSDT', 'SgPeg', Rev: 1, Len: 5533
+10:766  0:000    15. CB69C980: 'MSFF', 'MEGABOOK', Rev: 1, Len: 41
+10:766  0:000    16. CB69C9B0: 'BGRT', 'MEGABOOK', Rev: 1, Len: 56
+10:766  0:000    17. CB69C9E8: 'DMAR', 'HSW', Rev: 1, Len: 184
+10:766  0:000    18. CB69CAA0: 'SSDT', 'OptTabl', Rev: 1, Len: 5191
