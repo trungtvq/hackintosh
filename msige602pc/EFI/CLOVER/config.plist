@@ -143,17 +143,6 @@
 				</dict>
 			</array>
 		</dict>
-		<key>DropTables</key>
-		<array>
-			<dict>
-				<key>Signature</key>
-				<string>DMAR</string>
-			</dict>
-			<dict>
-				<key>Signature</key>
-				<string>MATS</string>
-			</dict>
-		</array>
 		<key>FixHeaders</key>
 		<false/>
 		<key>SSDT</key>
@@ -394,7 +383,7 @@
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C024202004NFJQWAD</string>
+		<string>C023034014NFJQW8C</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
@@ -417,16 +406,16 @@
 		<string>Part Component</string>
 		<key>Manufacturer</key>
 		<string>Apple Inc.</string>
-		<key>Mobile</key>
-		<false/>
 		<key>PlatformFeature</key>
 		<string>0x02</string>
 		<key>ProductName</key>
 		<string>MacBookPro11,2</string>
 		<key>SerialNumber</key>
-		<string>C02MQ7Z5G9FT</string>
+		<string>C02K40VRG9FT</string>
 		<key>SmUUID</key>
-		<string>3A4A6E37-EABB-4AF8-8042-B73A577C4A78</string>
+		<string>C42916F3-1803-47FD-B9E6-B61BE4349510</string>
+		<key>Trust</key>
+		<true/>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
