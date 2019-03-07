@@ -1,0 +1,53 @@
+
+Clover EFI installer log - Wed Mar  6 23:33:30 +07 2019
+Installer version: v2.4k r4895 EFI bootloader
+======================================================
+/dev/disk0 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *500.1 GB   disk0
+   1:                        EFI EFI                     209.7 MB   disk0s1
+   2:                 Apple_APFS Container disk2         499.9 GB   disk0s2
+
+/dev/disk1 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:     FDisk_partition_scheme                        *240.1 GB   disk1
+   1:                 DOS_FAT_32 EFI-250                 209.7 MB   disk1s1
+   2:                  Apple_HFS 250                     239.8 GB   disk1s2
+
+/dev/disk2 (synthesized):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      APFS Container Scheme -                      +499.9 GB   disk2
+                                 Physical Store disk0s2
+   1:                APFS Volume Hackintosh              27.7 GB    disk2s1
+   2:                APFS Volume Preboot                 44.6 MB    disk2s2
+   3:                APFS Volume Recovery                517.0 MB   disk2s3
+   4:                APFS Volume VM                      1.1 GB     disk2s4
+
+======================================================
+Backing up EFI files
+
+No Active Partition
+
+Stage 0 - Writing boot0af to /dev/rdisk1
+dd if=/dev/rdisk1 count=1 bs=512 of=/tmp/origMBR
+cp /tmp/origMBR /tmp/newMBR
+dd if=/Volumes/EFI-250/usr/standalone/i386/boot0af of=/tmp/newMBR bs=440 count=1 conv=notrunc
+fdisk -f /tmp/newMBR -u -y /dev/rdisk1
+
+Stage 1 - Writing boot1f32 to /dev/rdisk1s1
+dd if=/dev/rdisk1s1 count=1 bs=512 of=/tmp/origbs
+boot volume format is FAT32
+cp /tmp/boot1f32 /tmp/newbs
+dd if=/tmp/origbs of=/tmp/newbs skip=3 seek=3 bs=1 count=87 conv=notrunc
+dd if=/tmp/newbs of=/dev/rdisk1s1
+
+Setup Active Partition to be: 1
+New Active Partition: 1
+
+Stage 2 - Written boot6 (x64) to /Volumes/EFI-250/boot
+
+Theme 'Clovy' (defined in config.plist) not found !
+Using default theme 'embedded'
+======================================================
+=========== Clover EFI Installation Finish ===========
+======================================================
